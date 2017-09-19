@@ -1,0 +1,6 @@
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\RpgLibrary\bin\Debug\RpgLibrary.dll
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\RpgLibrary\bin\Debug\RpgLibrary.pdb
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\RpgLibrary\obj\Debug\RpgLibrary.csprojResolveAssemblyReference.cache
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\RpgLibrary\obj\Debug\RpgLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\RpgLibrary\obj\Debug\RpgLibrary.dll
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\RpgLibrary\obj\Debug\RpgLibrary.pdb

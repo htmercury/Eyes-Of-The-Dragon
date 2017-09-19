@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+using XRpgLibrary;
+
 namespace EyesOfTheDragon
 {
     /// <summary>
@@ -11,11 +13,17 @@ namespace EyesOfTheDragon
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        GameStateManager stateManager;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            Components.Add(new InputHandler(this));
+
+            stateManager = new GameStateManager(this);
+            Components.Add(stateManager);
         }
 
         /// <summary>
