@@ -2,11 +2,56 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+
+using XRpgLibrary;
 
 namespace EyesOfTheDragon.GameScreens
 {
-    class TitleScreen
+    public class TitleScreen : BaseGameState
     {
+        #region Field region
+
+        Texture2D backgroundImage;
+        #endregion
+
+        #region Constructor region
+
+        public TitleScreen(Game game, GameStateManager manager)
+            : base(game, manager)
+        {
+        }
+        #endregion
+
+        #region XNA Method region
+
+        protected override void LoadContent()
+        {
+            ContentManager Content = GameRef.Content;
+            base.LoadContent();
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+        }
+
+        public override void Draw(GameTime gameTime)
+        {
+            GameRef.SpriteBatch.Begin();
+
+            base.Draw(gameTime);
+
+            GameRef.SpriteBatch.Draw(
+                backgroundImage,
+                GameRef.ScreenRectangle,
+                Color.White);
+
+            GameRef.SpriteBatch.End();
+        }
+        #endregion
     }
 }
