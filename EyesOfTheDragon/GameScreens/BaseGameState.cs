@@ -12,13 +12,18 @@ namespace EyesOfTheDragon.GameScreens
     public abstract partial class BaseGameState : GameState
     {
         #region Fields region
+
         protected Game1 GameRef;
         protected ControlManager ControlManager;
         protected PlayerIndex playerIndexInControl;
         #endregion
+
         #region Properties region
+
         #endregion
+
         #region Constructor Region
+
         public BaseGameState(Game game, GameStateManager manager)
         : base(game, manager)
         {
@@ -26,7 +31,9 @@ namespace EyesOfTheDragon.GameScreens
             playerIndexInControl = PlayerIndex.One;
         }
         #endregion
+
         #region XNA Method Region
+
         protected override void LoadContent()
         {
             ContentManager Content = Game.Content;

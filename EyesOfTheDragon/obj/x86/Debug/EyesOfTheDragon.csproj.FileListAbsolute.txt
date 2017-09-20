@@ -27,3 +27,7 @@ C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\ob
 C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\obj\x86\Debug\EyesOfTheDragon.pdb
 C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\bin\Windows\x86\Debug\RpgLibrary.dll
 C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\bin\Windows\x86\Debug\RpgLibrary.pdb
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\bin\Windows\x86\Debug\MonoGame.Framework.Net.dll
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\bin\Windows\x86\Debug\MonoGame.Framework.Net.xml
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\bin\Windows\x86\Debug\Content\Backgrounds\titlescreen.xnb
+C:\Users\kawon\Documents\Git Respositories\Eyes-Of-The-Dragon\EyesOfTheDragon\bin\Windows\x86\Debug\Content\Fonts\ControlFont.xnb

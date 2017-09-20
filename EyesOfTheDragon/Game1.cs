@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
 using XRpgLibrary;
-using EyesOfTheDragon.GameScreens;
+using EyesOfTheDragon.GameScreens;
 
 namespace EyesOfTheDragon
 {
@@ -19,13 +19,14 @@ namespace EyesOfTheDragon
         #region XNA Field region
 
         GraphicsDeviceManager graphics;
-        public SpriteBatch spriteBatch;
+        public SpriteBatch SpriteBatch;
         #endregion
 
         #region Game State region
 
         GameStateManager stateManager;
         public TitleScreen TitleScreen;
+        public StartMenuScreen StartMenuScreen;
         #endregion
 
         #region Screen Field region
@@ -38,24 +39,29 @@ namespace EyesOfTheDragon
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            
             graphics.PreferredBackBufferWidth = screenWidth;
             graphics.PreferredBackBufferHeight = screenHeight;
 
             ScreenRectangle = new Rectangle(
-                0,
-                0,
-                screenWidth,
-                screenHeight);
+            0,
+            0,
+            screenWidth,
+            screenHeight);
 
             Content.RootDirectory = "Content";
 
             Components.Add(new InputHandler(this));
 
             stateManager = new GameStateManager(this);
+
             Components.Add(stateManager);
 
             TitleScreen = new TitleScreen(this, stateManager);
-            stateManager.ChangeState(TitleScreen);
+
+            StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
+
+            stateManager.ChangeState(TitleScreen);
         }
 
         protected override void Initialize()
@@ -68,7 +74,7 @@ namespace EyesOfTheDragon
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            SpriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
         }
