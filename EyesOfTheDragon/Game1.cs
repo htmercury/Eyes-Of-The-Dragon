@@ -10,7 +10,8 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
 using XRpgLibrary;
-using EyesOfTheDragon.GameScreens;
+using EyesOfTheDragon.GameScreens;
+
 
 namespace EyesOfTheDragon
 {
@@ -61,7 +62,8 @@ namespace EyesOfTheDragon
 
             StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
 
-            stateManager.ChangeState(TitleScreen);
+            stateManager.ChangeState(TitleScreen);
+
         }
 
         protected override void Initialize()

@@ -19,6 +19,11 @@ namespace XRpgLibrary.Controls
         }
         #endregion
 
+        #region Event Region
+
+        public event EventHandler FocusChanged;
+        #endregion
+
         #region Constructors
 
         public ControlManager(SpriteFont spriteFont)
@@ -80,7 +85,11 @@ namespace XRpgLibrary.Controls
                 if (selectedControl == Count)
                     selectedControl = 0;
                 if (this[selectedControl].TabStop && this[selectedControl].Enabled)
+                {
+                    if (FocusChanged != null)
+                        FocusChanged(this[selectedControl], null);
                     break;
+                }
             } while (currentControl != selectedControl);
             this[selectedControl].HasFocus = true;
         }
@@ -96,7 +105,11 @@ namespace XRpgLibrary.Controls
                 if (selectedControl < 0)
                     selectedControl = Count - 1;
                 if (this[selectedControl].TabStop && this[selectedControl].Enabled)
+                {
+                    if (FocusChanged != null)
+                        FocusChanged(this[selectedControl], null);
                     break;
+                }
             } while (currentControl != selectedControl);
             this[selectedControl].HasFocus = true;
         }

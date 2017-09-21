@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/Backgrounds/titlescreen.png</SourceFile>
-  <SourceTime>2017-09-18T23:48:43.4541965-05:00</SourceTime>
+  <SourceTime>2017-09-21T10:42:10.7034159-05:00</SourceTime>
   <DestFile>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/bin/Windows/Backgrounds/titlescreen.xnb</DestFile>
-  <DestTime>2017-09-20T16:48:18.6043268-05:00</DestTime>
+  <DestTime>2017-09-21T10:42:57.8424223-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T09:05:36-06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

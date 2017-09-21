@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/Fonts/ControlFont.spritefont</SourceFile>
-  <SourceTime>2017-09-20T16:24:10.7201038-05:00</SourceTime>
+  <SourceTime>2017-09-21T10:42:10.7190434-05:00</SourceTime>
   <DestFile>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/bin/Windows/Fonts/ControlFont.xnb</DestFile>
-  <DestTime>2017-09-20T16:51:02.3679314-05:00</DestTime>
+  <DestTime>2017-09-21T10:42:58.770444-05:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2017-03-01T09:05:36-06:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
