@@ -6,5 +6,8 @@
   <SourceFiles>
     <File>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/Backgrounds/titlescreen.png</File>
     <File>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/Fonts/ControlFont.spritefont</File>
+    <File>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/GUI/leftarrowUp.png</File>
+    <File>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/GUI/rightarrowUp.png</File>
+    <File>C:/Users/kawon/Documents/Git Respositories/Eyes-Of-The-Dragon/EyesOfTheDragon/Content/GUI/StopBar.png</File>
   </SourceFiles>
 </SourceFileCollection>

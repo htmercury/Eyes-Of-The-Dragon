@@ -28,6 +28,7 @@ namespace EyesOfTheDragon
         GameStateManager stateManager;
         public TitleScreen TitleScreen;
         public StartMenuScreen StartMenuScreen;
+        public GamePlayScreen GamePlayScreen;
         #endregion
 
         #region Screen Field region
@@ -55,12 +56,11 @@ namespace EyesOfTheDragon
             Components.Add(new InputHandler(this));
 
             stateManager = new GameStateManager(this);
-
             Components.Add(stateManager);
 
             TitleScreen = new TitleScreen(this, stateManager);
-
             StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
+            GamePlayScreen = new GameScreens.GamePlayScreen(this, stateManager);
 
             stateManager.ChangeState(TitleScreen);
 

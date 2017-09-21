@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Game1.cs" />
     <Compile Include="GameScreens\BaseGameState.cs" />
+    <Compile Include="GameScreens\GamePlayScreen.cs" />
     <Compile Include="GameScreens\StartMenuScreen.cs" />
     <Compile Include="GameScreens\TitleScreen.cs" />
     <Compile Include="Program.cs" />
@@ -59,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Backgrounds\titlescreen.png" />
+    <Content Include="Content\GUI\leftarrowUp.png" />
+    <Content Include="Content\GUI\rightarrowUp.png" />
+    <Content Include="Content\GUI\StopBar.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
